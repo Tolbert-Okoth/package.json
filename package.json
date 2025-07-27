@@ -1,11 +1,14 @@
 {
-  "name": "my-project",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  
-  "author": "Tolbert Okoth",
-
+	"name": "Tolbert Asumba",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+	}
 }
